@@ -7,6 +7,10 @@ using System.Web.Http;
 
 namespace FinalProject1.Controllers
 {
+    class MyClass
+    {
+        public int MyProperty { get; set; }
+    }
     public class DeptController : ApiController
     {
         // GET api/<controller>
